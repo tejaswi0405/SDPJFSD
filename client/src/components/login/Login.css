@@ -1,0 +1,57 @@
+.login{
+    height: calc(85vh - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)
+),
+    
+    url("https://atlassianblog.wpengine.com/wp-content/uploads/Projectmanagement-1361x760.png");
+    height: 530px; background-size: cover;
+}
+.loginTitle{
+    font-size: 60px;
+    font-family: 'Rozha One', serif;
+    
+    
+}
+
+.loginForm{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    margin: 12px 0;
+}
+
+.loginInput{
+    padding: 12px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton{
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: rgb(66, 136, 183);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    background-color: rgb(66, 136, 183);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
